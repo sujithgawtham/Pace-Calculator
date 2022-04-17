@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calc.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>RUNNING PACE CALCULATOR</h1>
+    <script src="script.js"></script>
+    <div class="container">
+      <h2 class="Text1">Calculate your Running Pace</h2>
+      <h3 class="Text2">Enter any two to calculate pace, time or distance</h3>
+
+      <div class="Time">
+        <label for="Time">Time</label>
+        <div class="input">
+          <input type="number" id="hours" name="Hours" placeholder="Hrs" />
+          <p>:</p>
+          <input type="number" id="minutes" name="Minutes" placeholder="Min" />
+          <p>:</p>
+          <input type="number" id="seconds" name="Seconds" placeholder="Sec" />
+        </div>
+      </div>
+      <div class="Distance">
+        <label for="Distance">Distance</label>
+        <div class="input">
+          <input type="number" id="distance" name="Hours" />
+
+          <form action="#">
+            <select name="values" id="Value">
+              <option value="kilometers">Kilometers</option>
+              <option value="Miles">Miles</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <div class="Pace">
+        <label for="Pace">Pace</label>
+        <!-- <div class="input">
+          <input type="number" id="Ti" name="Hours" placeholder="Hrs" />
+          <p>:</p>
+          <input type="number" id="Time5" name="Minutes" placeholder="Min" />
+          <p>:</p>
+          <input type="number" id="Time6" name="Seconds" placeholder="Sec" />
+        </div> -->
+        <form action="#">
+          <select name="values" id="Pace-Value">
+            <option value="Per-mile">Per-mile</option>
+            <option value="Per-Km">Per-Kilometer</option>
+          </select>
+        </form>
+      </div>
+      <div class="label">
+        <label for="Result">Result</label>
+        <p class="answer" id="pace"></p>
+        <!-- <input type"number" id="result" name = "Answer" placeholder="Answer" /> -->
+      </div>
+
+      <button id="calculate_btn">Calculate</button>
+    </div>
+    <script async src="script.js"></script>
+  </body>
+</html>

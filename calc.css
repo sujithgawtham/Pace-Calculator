@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 500px;
+}
+
+.container {
+  font-family: sans-serif;
+  color: white;
+  text-align: left;
+  background-color: #5c5757;
+  margin-left: 500px;
+  padding: 30px;
+  width: 500px;
+  /* position: relative; */
+}
+
+.Text1,
+.Text2 {
+  margin-bottom: 20px;
+  /* width: 120px; */
+}
+
+.Time {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 8px 0;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+}
+
+#hours,
+#minutes,
+#seconds {
+  width: 50px;
+}
+
+.Distance {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 8px 0;
+}
+
+#Dist1 {
+  width: 50px;
+}
+
+.Pace {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 8px 0;
+}
+
+#Pace-Value {
+  margin: 10px 0;
+}
+
+.label {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 8px 0;
+}
+/* .answer { 
+  border: 1px solid;
+
+  width: 100px;
+  background-color: #ffff;
+
+  height: 25px;
+  padding: 10px 10px;
+} */
